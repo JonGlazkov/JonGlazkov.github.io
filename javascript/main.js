@@ -15,9 +15,9 @@ function showBackToTopButtonOnScroll() {
 }
 
 ScrollReveal({
-  origin:'bottom',
+  origin: 'bottom',
   distance: '30px',
-  duration: 700,
+  duration: 700
 }).reveal(`
 #home,
 #about,
@@ -40,11 +40,11 @@ ScrollReveal({
 
 // Mobile navigation desaparecendo quando clicado.
 
-document.querySelectorAll("ul#menu_content li a").forEach((item) => {
-  item.addEventListener("click", () => {
-    document.querySelector("input[type=checkbox").checked = false;
-  });
-});
+document.querySelectorAll('ul#menu_content li a').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelector('input[type=checkbox').checked = false
+  })
+})
 
 // Restauração da Página para o Início ao recarregar.
 history.scrollRestoration = 'manual'
@@ -53,5 +53,3 @@ history.scrollRestoration = 'manual'
   function () {
     window.scrollTop(0)
   }
-
-
