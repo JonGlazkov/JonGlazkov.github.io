@@ -430,7 +430,7 @@ div.skill {
   transition: all 0.2s ease;
 }
 div.skill:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) !important;
   cursor: pointer;
 }
 
