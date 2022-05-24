@@ -284,7 +284,7 @@ button a {
 }
 
 #header_photo {
-  background-image: url(/assets/uteis/portfolio-background-photo.png);
+  background-image: url(./assets/uteis/portfolio-background-photo.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 45rem;
@@ -294,7 +294,7 @@ button a {
 /*===============  ABOUT ================*/
 
 section#about::before {
-  background-image: url(/assets/uteis/background.png);
+  background-image: url(./assets/uteis/background.png);
   background-size: fill;
   background-color: var(--bg-secondary-color);
   background-repeat: repeat-x;
@@ -306,7 +306,7 @@ section#about::before {
 }
 
 section#about::after {
-  background-image: url(/assets/uteis/background.png);
+  background-image: url(./assets/uteis/background.png);
   background-size: fill;
   background-color: var(--bg-secondary-color);
   background-repeat: repeat-x;
