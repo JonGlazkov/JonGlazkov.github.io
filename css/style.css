@@ -284,7 +284,7 @@ button a {
 }
 
 #header_photo {
-  background-image: url(./assets/uteis/portfolio-background-photo.png);
+  background-image: url(/assets/uteis/portfolio-background-photo.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 45rem;
