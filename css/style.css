@@ -294,7 +294,7 @@ button a {
 /*===============  ABOUT ================*/
 
 section#about::before {
-  background-image: url(./assets/uteis/background.png);
+  background-image: url(/assets/uteis/background.png);
   background-size: fill;
   background-color: var(--bg-secondary-color);
   background-repeat: repeat-x;
@@ -306,7 +306,7 @@ section#about::before {
 }
 
 section#about::after {
-  background-image: url(./assets/uteis/background.png);
+  background-image: url(/assets/uteis/background.png);
   background-size: fill;
   background-color: var(--bg-secondary-color);
   background-repeat: repeat-x;
