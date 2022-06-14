@@ -8,14 +8,14 @@
 }
 
 :root {
-  --bg-primary-color: hsl(235, 65%, 13%);
-  --bg-secondary-color: hsl(235, 45%, 25%);
-  --bg-transition-color: hsl(258, 56%, 20%);
+  --bg-primary-color: hsl(0, 0%, 5%);
+  --bg-secondary-color: hsl(0, 0%, 15%);
 
   --headline: hsl(220, 6%, 91%);
   --paragraph: hsl(210, 4%, 60%);
   --main-paragraph: hsl(220, 100%, 100%);
-  --brand-light: hsl(152, 100%, 50%);
+  
+  --brand-light: hsl(351, 100%, 50%);
   --brand-light-alternation: hsl(0, 100%, 50%);
 
   font-size: 62.5%; /*1rem == 10px */
