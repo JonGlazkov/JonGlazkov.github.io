@@ -386,7 +386,6 @@ section#about {
 
 #right_side span {
   color: var(--brand-light);
-  font-weight: 400;
 }
 
 .about h2,
@@ -403,6 +402,10 @@ section#about {
   font-weight: 300;
   text-align: justify;
   justify-content: space-around;
+}
+
+.about_content #right_side p span {
+  font-weight: 400;
 }
 
 /*================= SKILLS =================*/
