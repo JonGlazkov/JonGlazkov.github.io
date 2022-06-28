@@ -386,6 +386,7 @@ section#about {
 
 #right_side span {
   color: var(--brand-light);
+  font-weight: 400;
 }
 
 .about h2,
