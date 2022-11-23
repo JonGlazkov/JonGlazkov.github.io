@@ -430,7 +430,7 @@ div.skill {
   display: flex;
   flex-direction: column;
   flex: 1 0 22%;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
   transition: all 0.2s ease-in-out !important;
 }
 div.skill:hover {
